@@ -1,0 +1,56 @@
+.navbar{
+  padding-left:15px;
+  padding:20px;
+  background-color: rgb(197, 199, 201);
+}
+.nav-wrapper{
+  background-color: rgb(197, 199, 201);
+  color:black;
+  padding:20px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+}
+
+.card{
+  display:flex;
+}
+
+.input-field{
+  display: flex;
+}
+
+.materialize-textarea{
+  width:400px !important;
+}
+
+.searchBody{
+  justify-content: center;
+}
+
+img{
+  width:250px;
+  height:350px;
+}
+
+.repos{
+  color: rgb(38, 107, 112);
+  cursor: pointer;
+}
+
+.margined{
+  height:90px;
+}
+
+.centered{
+  justify-content: center;
+}
+
+.sticky{
+  position: sticky;
+  top:0;
+}
