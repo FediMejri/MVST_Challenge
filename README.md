@@ -17,9 +17,9 @@ This project is a small Github app implemented with react, deployed on Heroku an
 5. run : npm start
 6. If you want to run tests, use : npm test
 
-**App website : ** https://mvstchallenge.herokuapp.com/
+**App website :** https://mvstchallenge.herokuapp.com/
 
-**Improvements : ** 
+**Improvements :** 
 1. Add authentication feature to sign up and lign to the app.
 2. Bind the 2 views to each other and make them work together without intervention of the click event.
 3. Improve the User Interface and add informations to the web page.
