@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+This project is a small Github app implemented with react, deployed on Heroku and provided with two Features:
+      1- Search for users by their userName to get some informations about the user.
+      2- Get repositories by user in a view containing a quick search container.
+      
+**Scenario** : You enter the app by running it locally or by visiting the website https://mvstchallenge.herokuapp.com/ .
+           You get the first interface which is the search input and the card containing my github account informations.
+           If you want to display the repositories view you click on the "n Repositories" in blue.
+           If you want to search for an other user you type its username on the left searchbar and press "Enter" with keyboard or click on search.
+           You get the user informations. If you want to see the repositories then click on the blue text again.
+           You can search for repositories by their names with the right search bar.
+           
+**To run the project locally, you need to**
+1. Install node.js and npm : sudo apt install nodejs npm 
+2. Clone the project at your local machine using git or download it from github directly.
+3. open terminal in the project directory.
+4. run : npm install
+5. run : npm start
+6. If you want to run tests, use : npm test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**App website : ** https://mvstchallenge.herokuapp.com/
 
-## Available Scripts
+**Improvements : ** 
+1. Add authentication feature to sign up and lign to the app.
+2. Bind the 2 views to each other and make them work together without intervention of the click event.
+3. Improve the User Interface and add informations to the web page.
 
-In the project directory, you can run:
+**FeedBack**
+This is a good exercice where I practiced some data interaction, templates rendering and state setting using react.js. 
+The git versionning requirement has caused some problems to me, since they don't work with passwords anymore so if I want to push I have to generate a token and use it. This policy has changed since 13 august and I didn't know. This exercice has let me notice this change.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
